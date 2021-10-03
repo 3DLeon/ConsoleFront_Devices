@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\WebAPI_Devices\Connector_Devices\Connector_Devices.csproj" />
+    <ProjectReference Include="..\..\WebAPI_Devices\Entities_Devices\Entities_Devices.csproj" />
+  </ItemGroup>
+
+</Project>
